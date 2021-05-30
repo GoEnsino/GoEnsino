@@ -6,9 +6,7 @@ const Home = () => {
       <div className="container">
         <h2 className="titulo-pagina">Conteúdo </h2>
       </div>
-     
     </main>
-    
   )
 }
 
