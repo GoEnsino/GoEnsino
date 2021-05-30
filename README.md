@@ -2,7 +2,10 @@
 
 [![](readme.assets/app.gif)](https://goensino.herokuapp.com/)
 ## Descrição
-GoEnsino é uma plataforma que analisa dados de educação e recomenda conteúdos com o objetivo de auxiliar alunos com dificuldades em matérias do ensino médio. A plataforma visa promover a conexão entre os alunos e instituição, e alunos com outros alunos que podem auxiliá-los (mentores). O modelo de recomendação é retroalimentado a partir dos feedbacks do estudante, a fim de se adaptar melhor ao modo como cada aluno aprende.
+GoEnsino é uma plataforma gamificada que analisa dados de educação e recomenda conteúdos com o objetivo de auxiliar alunos com dificuldades em matérias do ensino médio. A plataforma visa promover a conexão e o engajamento entre os alunos e instituição, e alunos com outros alunos que podem auxiliá-los (mentores). O modelo de recomendação é retroalimentado a partir dos feedbacks do estudante, a fim de se adaptar melhor ao modo como cada aluno aprende.
+
+## Ideia inicial
+![](readme.assets/ux.png)
 
 # Instalação e execução
 ## Pré-requisitos
