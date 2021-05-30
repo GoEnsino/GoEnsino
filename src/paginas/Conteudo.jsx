@@ -1,5 +1,7 @@
 import React from 'react'
 import imagem from '../assets/img/icos/book.png'
+import { Link } from "react-router-dom";
+
 const Conteudo = () => {
 
   return (
@@ -14,24 +16,29 @@ const Conteudo = () => {
       <div className="container">
         <div className="bloco">
         <hr/>
+        <Link to="/material_apoio">
           <div className="book-infor">
             <img className="book-image" src={imagem} alt="book"/>
             <p>Matemática</p>
             <p className="book-pont" >37 pontos</p>
           </div>
+        </Link>
         <hr/>
+        <Link to="/material_apoio">
           <div className="book-infor">
             <img className="book-image" src={imagem} alt="book"/>
             <p>Português</p>
             <p className="book-pont" >60 pontos</p>
           </div>
+        </Link>
         <hr/>
-
-        <div className="book-infor">
-            <img className="book-image" src={imagem} alt="book"/>
-            <p>Biologia</p>
-            <p className="book-pont" >65 pontos</p>
+        <Link to="/material_apoio">
+          <div className="book-infor">
+              <img className="book-image" src={imagem} alt="book"/>
+              <p>Biologia</p>
+              <p className="book-pont" >65 pontos</p>
           </div>
+        </Link>
         <hr/>
         </div>
       </div>

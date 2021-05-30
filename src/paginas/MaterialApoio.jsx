@@ -4,7 +4,6 @@ import google_forms from '../assets/img/google-forms.png'
 import numeros_complexos from '../assets/img/numeros-complexos.png'
 import sinapse_podcast from '../assets/img/sinapse-podcast.png'
 
-
 const Home = () => {
 
   return (
@@ -15,8 +14,12 @@ const Home = () => {
           
             <p>34 conteúdos encontrados</p>
             <hr/>
-            <img className="conteudo-image" src={numeros_complexos} alt="book"/> 
-            <img className="conteudo-image" src={sinapse_podcast} alt="book"/> 
+            <a href="https://www.youtube.com/watch?v=AAXPJpfRwxw" target="_blank">
+              <img className="conteudo-image" src={numeros_complexos} alt="book"></img> 
+            </a>
+            <a href="https://anchor.fm/sinapse/episodes/Sinapse-19---A-Matemtica-Foi-Descoberta-ou-Inventada-e5efct" target="_blank">
+              <img className="conteudo-image" src={sinapse_podcast} alt="book"></img>
+            </a>
             <div className=" conteudo-atividades">
               <img className="conteudo-form" src={google_forms} alt="book"/> 
               <p  className="atividades-infor"> <a href="">Atividades Recomendadas</a></p>
