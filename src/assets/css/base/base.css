@@ -31,6 +31,42 @@ img.avatar {
 	width: 40%;
 }
 
+@media(min-width: 300px) {
+	.imgprofile {
+		width: 40%;
+		border-radius: 50%;
+	}
+
+	.student .name {
+		font-weight: 600;
+		font-size: 22px;
+	}
+	
+	.student .school {
+		font-size: 18px;
+	}
+}
+
+@media(min-width: 800px) {
+	.imgprofile {
+		width: 10%;
+		border-radius: 50%;
+	}
+
+	.student .name {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	
+	.student .school {
+		font-size: 14px;
+	}
+}
+
+.student {
+	padding-top: 1rem;
+}
+
 .main {
 	padding-top: 30px;
 }
@@ -134,7 +170,13 @@ span.psw {
 	margin-bottom: 2rem;
 }
 
-@media(max-width: 300px) {
+
+
+@media(max-width: 400px) {
+	.book-pont{
+		font-size: 10px !important;
+		padding-top: 1.90rem !important;
+	}
 	.book-image{
 		width: 15%;
 		max-width: 21rem;
@@ -142,21 +184,15 @@ span.psw {
 		margin-bottom: 2rem;
 	}
 
-}
-@media(max-width: 300px) {
 	.book-infor p {
-		font-size: 27px;
+		font-size: 17px;
 		padding-top: 1.5rem;
 		margin-left: 2rem;
 	}
-}
-@media(max-width: 300px) {
 	img.avatar {
 		width: 85%;
 	}
 }
-
-
 
 
 .book-infor{
