@@ -2,13 +2,14 @@ import React from 'react'
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useHistory, Link } from "react-router-dom";
+import imagem from '../assets/img/logo-goensino.png'
 
 const Home = () => {
   const history = useHistory();
   return (
     <main className="main">
       <div className="imgcontainer">
-        <img src={process.env.PUBLIC_URL + '/logo-goensino.png'} alt="Avatar" className="avatar"></img>
+        <img className="avatar" src={imagem} alt="book"/> 
       </div>
 
       <div className="container">

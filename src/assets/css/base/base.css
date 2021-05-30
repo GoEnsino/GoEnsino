@@ -120,3 +120,46 @@ span.psw {
 		padding-right: calc((100vw - 900px)/2);
 	}
 }
+
+.book-infor p {
+	padding-top: 2.5rem;
+	margin-left: 17rem;
+	font-size: 47px;
+}
+
+.book-image{
+	width: 10%;
+	max-width: 25rem;
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+}
+
+@media(max-width: 300px) {
+	.book-image{
+		width: 15%;
+		max-width: 21rem;
+		margin-top: 1.55rem;
+		margin-bottom: 2rem;
+	}
+
+}
+@media(max-width: 300px) {
+	.book-infor p {
+		font-size: 27px;
+		padding-top: 1.5rem;
+		margin-left: 2rem;
+	}
+}
+@media(max-width: 300px) {
+	img.avatar {
+		width: 85%;
+	}
+}
+
+
+
+
+.book-infor{
+	display: inline-flex;
+}
+
