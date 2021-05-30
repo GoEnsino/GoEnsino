@@ -9,6 +9,7 @@ const Home = () => {
 
   return (
     <main>
+      <img className="image-arrow-back" src={arrow_back} alt="book"/> 
       <div className="container">
           <div className="bloco student">
             <h1 className="name"> Plano de estudo personalizado - Matemática</h1>
