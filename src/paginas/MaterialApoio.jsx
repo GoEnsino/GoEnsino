@@ -6,9 +6,11 @@ import sinapse_podcast from '../assets/img/sinapse-podcast.png'
 
 const Home = () => {
 
+  const history = useHistory();
+
   return (
     <main>
-      <img className="image-arrow-back" src={arrow_back} alt="book"/> 
+      <img className="image-arrow-back" src={arrow_back} alt="book" onClick={history.pop()}/> 
       <div className="container">
           <div className="bloco student">
             <h1 className="name"> Plano de estudo personalizado - Matemática</h1>
