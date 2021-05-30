@@ -31,3 +31,6 @@ Caso deseje instalar e executar a aplicação, siga os passos abaixo:
 - Flex
 - HTML
 - CSS
+
+## Vídeo Demo
+Acesse ao vídeo demonstrativo na plataforma em [youtube](https://www.youtube.com/watch?v=OtQsYgysdvg/)
