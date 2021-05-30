@@ -157,10 +157,14 @@ span.psw {
 	}
 }
 
+.book-infor{
+	display: inline-flex;
+}
+
 .book-infor p {
 	padding-top: 2.5rem;
 	margin-left: 17rem;
-	font-size: 47px;
+	font-size: 20px;
 }
 
 .book-image{
@@ -194,8 +198,4 @@ span.psw {
 	}
 }
 
-
-.book-infor{
-	display: inline-flex;
-}
 
