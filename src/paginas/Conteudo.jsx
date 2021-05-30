@@ -1,10 +1,7 @@
 import React from 'react'
 import imagem from '../assets/img/icos/book.png'
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-=======
 
->>>>>>> 243f3aedbf62f73c7a89edadf5bd8972284ec79b
 const Conteudo = () => {
 
   return (
@@ -19,11 +16,7 @@ const Conteudo = () => {
       <div className="container">
         <div className="bloco">
         <hr/>
-<<<<<<< HEAD
-        <Link to="/material_apoio"> 
-=======
         <Link to="/material_apoio">
->>>>>>> 243f3aedbf62f73c7a89edadf5bd8972284ec79b
           <div className="book-infor">
             <img className="book-image" src={imagem} alt="book"/>
             <p>Matemática</p>
