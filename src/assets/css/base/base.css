@@ -1,14 +1,13 @@
 @import url(_reset.css);
 @import url(_variaveis.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Pacifico&display=swap');
-
 body {
 	background-color: var(--cor-secundaria);
 	color: var(--cor-contraste-escuro);
 	font-family: var(--fonte-familia-corpo);
 }
 
-.container { 
+.container {
 	padding-right: 1rem;
 	padding-left: 1rem;
 }
@@ -18,8 +17,66 @@ body {
 }
 
 .flex--centro {
+	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+img.avatar {
+	width: 40%;
+}
+
+.main {
+	padding-top: 30px;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.register {
+	background-color: blue;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
 }
 
 .flex--coluna {
@@ -32,7 +89,7 @@ body {
 	/* font-family: var(--fonte-familia-titulo-pagina);
 	font-size: var(--fonte-tamanho-titulo-pagina); */
 	background-color: var(--cor-contraste-claro);
-    border-radius: 10px;
+	border-radius: 10px;
 	box-shadow: var(--sombra);
 	height: 4.75rem;
 	margin-top: 1.25rem;
@@ -40,10 +97,20 @@ body {
 	padding-left: 2rem;
 }
 
+
+.bloco{
+	background-color: var(--cor-contraste-claro);
+	border-radius: 10px;
+	box-shadow: var(--sombra);
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+	padding: 2rem;
+}
+
 @media(min-width: 800px) {
-  .container {
+	.container {
 		padding-right: 2.5rem;
-		padding-left: 2.5rem;	
+		padding-left: 2.5rem;
 	}
 }
 

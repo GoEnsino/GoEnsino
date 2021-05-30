@@ -5,7 +5,6 @@ import Login from './paginas/Login'
 import Conteudo from './paginas/Conteudo'
 import MaterialApoio from './paginas/MaterialApoio'
 import Pagina404 from './paginas/Pagina404'
-import Cabecalho from './components/Cabecalho'
 import Post from './paginas/Post'
 
 function App() {
