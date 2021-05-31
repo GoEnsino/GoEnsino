@@ -32,5 +32,7 @@ Caso deseje instalar e executar a aplicação, siga os passos abaixo:
 - HTML
 - CSS
 
+<img src="https://github.com/GoEnsino/GoEnsino/blob/master/readme.assets/logo_Ada.png" width="900" />
+
 ## Vídeo Demo
 Acesse ao vídeo demonstrativo na plataforma em [youtube](https://www.youtube.com/watch?v=OtQsYgysdvg/)
